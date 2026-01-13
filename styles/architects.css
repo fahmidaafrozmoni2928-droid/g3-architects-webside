@@ -3,9 +3,32 @@
 
 
 
-.work-sans-<uniquifier> {
+.work-sans-font {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+  }
+
+  .nav-links li{
+    list-style: none;
+    margin-right: 30px;
+  }
+  .nav-links a{
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .navbar{
+   
+
+  }
+  .display-flex{
+    display: flex;
+    justify-content: space-between;
+  }
+  .text-grey{
+    color: #424242;
+  }
+  .text-light-grey{
+    color: #727272;
   }
