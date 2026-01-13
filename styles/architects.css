@@ -20,8 +20,38 @@
   }
   .navbar{
    text-align: center;
+   padding: 70px;
+   margin: 50px;
 
   }
+  main{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    gap: 24px;
+    padding: 70px;
+    
+  }
+  .our-features{
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+  }
+  .feature-description{
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    width: 550px;
+  }
+  .teams{
+    justify-content: space-between;
+    
+  }
+  
+  
   .brand{
    font-weight: 700px;
    font-size: 3rem;
@@ -66,6 +96,7 @@
   }
   .banner-image{
     width: 100%;
+    padding: 70px;
   }
 
   @media screen and (max-width:576px){
